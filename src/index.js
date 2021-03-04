@@ -9,6 +9,6 @@ module.exports = function check(str, bracketsConfig) {
 			myStr = myStr.replace(item, "");
 		}
 	}
-	return myStr.length > 0 ? false : true;
+	return myStr.length === 0;
 }
 
